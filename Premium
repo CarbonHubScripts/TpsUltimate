@@ -1,1 +1,12 @@
-print" fuck niggers"
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+local textLabel = Instance.new("TextLabel")
+textLabel.Parent = screenGui
+textLabel.Size = UDim2.new(0.4, 0, 0.1, 0)
+textLabel.Position = UDim2.new(0.3, 0, 0.45, 0)
+textLabel.BackgroundTransparency = 1
+textLabel.Text = "Fuck niggers go play without scripts be fair"
+textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+textLabel.TextScaled = true
+textLabel.Font = Enum.Font.SourceSansBold
